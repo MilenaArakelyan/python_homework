@@ -16,7 +16,7 @@ class Worker(People):
         super()._init_(name, last_name, age)  
         
         
-worker = Worker ("Victor","Hambardzumyan",110,"atronom")
+worker = Worker ("Victor","Hambardzumyan",115,"atronom")
 print(worker.add_age(3))
 print (worker.age)
 
